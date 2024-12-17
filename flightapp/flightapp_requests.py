@@ -5,7 +5,7 @@ class FlightAppRequests:
     BASE_URL = 'https://fr24api.flightradar24.com/api'
     SANDBOX_URL = 'https://fr24api.flightradar24.com/api/sandbox'
     TOKEN = ''
-    SANDBOX_TOKEN = 'Bearer 9d388cc9-9a6a-46e7-9374-3587089ff0ef|6cGIdgpOfuzFZRpHU0vRFC8hPD0nh8NX5cZaJNJee27fdf05'
+    SANDBOX_TOKEN = 'Bearer '
 
     def build_request(endpoint, params, sandbox):
         headers = {
